@@ -45,5 +45,5 @@ Execute o sistema:
 
 ---
 
-Desenvolvido por **Sabrina Bet** • **2025**  
-[LinkedIn](https://www.linkedin.com/in/sabrina-bet)
+Desenvolvido por **Eduarda Müller** • **2025**  
+
