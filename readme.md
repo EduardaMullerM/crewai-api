@@ -4,6 +4,8 @@
 
   O objetivo deste projeto é demonstrar como agentes inteligentes, criados com a biblioteca CrewAI e integrados a modelos de linguagem (LLMs), podem colaborar para coletar e organizar informações relevantes sobre uma localidade específica. Cada agente possui um papel definido: o Geógrafo reúne dados culturais, econômicos e geográficos, o Meteorologista fornece uma análise do clima atual e previsões, e o Chef Internacional identifica os principais pratos típicos da região. Juntos, eles utilizam APIs públicas para gerar relatórios automatizados com conteúdo informativo e contextualizado.  
 
+  Este projeto também foi pensado para pessoas que sonham em explorar o mundo. Ao reunir informações culturais, gastronômicas e climáticas em um só lugar, ele se torna uma ferramenta útil e acessível para quem deseja conhecer melhor diferentes países, seja por curiosidade, planejamento de viagem ou estudo. A combinação de agentes inteligentes e APIs públicas transforma dados espalhados em insights organizados e prontos para uma nova jornada.
+
 
 
 ## 🧠 Agentes Inteligentes
