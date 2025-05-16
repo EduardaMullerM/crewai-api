@@ -6,16 +6,6 @@
 
 
 
-## 🌐 APIs Utilizadas
-
-- **restcountries.com:** Usada para consultar dados como população, idioma e localização de países.
-
-- **themealdb.com:** Usada para listar pratos típicos de acordo com o gentilico do país.
-
-- **weatherstack.com:** Usada para retornar a previsão do tempo e condições atuais de uma cidade.
-
-
-
 ## 🧠 Agentes Inteligentes
 
 - **Geógrafo Especialista:** Analisa dados básicos, culturais, econômicos e geográficos sobre países e cidades.
@@ -23,6 +13,16 @@
 - **Chef Internacional:** Lista os 5 pratos típicos mais importantes de uma região com seus ingredientes e usos culturais.
 
 - **Meteorologista Climatologista:** Fornece uma análise do clima atual e previsão de 24h, além de recomendações práticas.
+
+
+
+## 🌐 APIs Utilizadas
+
+- **restcountries.com:** Usada para consultar dados como população, idioma e localização de países.
+
+- **themealdb.com:** Usada para listar pratos típicos de acordo com o gentilico do país.
+
+- **weatherstack.com:** Usada para retornar a previsão do tempo e condições atuais de uma cidade.
 
     
 
