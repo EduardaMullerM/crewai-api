@@ -20,11 +20,11 @@
 
 ## 🌐 APIs Utilizadas
 
-- **restcountries.com:** Usada para consultar dados como população, idioma e localização de países.
+- **[restcountries.com](https://restcountries.com/)**: Usada para consultar dados como população, idioma e localização de países.
 
-- **themealdb.com:** Usada para listar pratos típicos de acordo com o gentilico do país.
+- **[themealdb.com](https://www.themealdb.com/)**: Usada para listar pratos típicos de acordo com o gentilico do país.
 
-- **weatherstack.com:** Usada para retornar a previsão do tempo e condições atuais de uma cidade.
+- **[weatherstack.com](https://weatherstack.com/)**: Usada para retornar a previsão do tempo e condições atuais de uma cidade.
 
 
 ---
