@@ -7,7 +7,7 @@ load_dotenv()
 
 # Cria agentes
 
-destino = input('Insira seu destino: ')
+destino = input('Insira seu país de destino: ')
 
 cozinheiro = create_cozinheiro()
 meteorologista = create_meteorologista()

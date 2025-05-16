@@ -4,9 +4,9 @@ from config import get_llm
 
 def create_geografo():
     return Agent(
-        role='Geógrafo meticuloso',
-        goal='Falar informações ',
-        backstory='Você é um geógrafo com especialidade em saber informações sobre países',
+        role='Geógrafo Especialista',
+        goal='Fornecer análises precisas sobre países e suas características principais',
+        backstory='Especialista em geografia com foco em aspectos culturais, políticos e socioeconômicos. Habilidade em sintetizar informações complexas de forma clara.',
         tools=[FetchCountryInfo()],
         verbose=True,
         allow_delegation=False,
@@ -15,9 +15,9 @@ def create_geografo():
 
 def create_cozinheiro():
     return Agent(
-        role='Cozinheiro genial',
-        goal='Sugerir comidas típicas de certo país',
-        backstory='Você é um cozinheiro com vasto conhecimento em culinária típica',
+        role='Chef Internacional',
+        goal='Identificar e analisar pratos típicos e tradições culinárias regionais',
+        backstory='Chef especializado em gastronomia global, com expertise em identificar pratos tradicionais, ingredientes locais e técnicas culinárias regionais.',
         tools=[FetchRecipeTool()],
         verbose=True,
         allow_delegation=False,
@@ -26,9 +26,9 @@ def create_cozinheiro():
 
 def create_meteorologista():
     return Agent(
-        role="Meteorologista",
-        goal="Fornecer previsões climáticas precisas",
-        backstory="Especialista em análise atmosférica.",
+        role="Meteorologista Climatologista",
+        goal="Fornecer análises meteorológicas precisas e recomendações práticas",
+        backstory="Especialista em climatologia com foco em previsão meteorológica, análise de padrões climáticos e impactos em atividades humanas.",
         tools=[FetchWeatherTool()],
         verbose=True,
         llm=get_llm()
