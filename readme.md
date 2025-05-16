@@ -26,6 +26,8 @@
 
 - **weatherstack.com:** Usada para retornar a previsão do tempo e condições atuais de uma cidade.
 
+
+---
     
 
 Desenvolvido por **Eduarda Müller** • **2025**  
