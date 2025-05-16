@@ -15,15 +15,14 @@ geografo = create_geografo()
 
 # Cria tarefas
 task1 = buscar_comidas(cozinheiro, destino)
-task2 = buscar_clima(meteorologista, [task1])
-task3 = buscar_informacoes(geografo, [task1])
+task2 = buscar_clima(meteorologista, destino, [task1])
+task3 = buscar_informacoes(geografo, destino, [task1])
 
 # Configura Crew
 crew = Crew(
     agents=[cozinheiro, meteorologista, geografo],
     tasks=[task1, task2, task3],
     verbose=True,
-    memory=True
 )
 
 # Execução

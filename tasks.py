@@ -12,9 +12,9 @@ def buscar_comidas(agent, destino):
         verbose=True
     )
 
-def buscar_clima(agent, context):
+def buscar_clima(agent, destino, context):
     return Task(
-        description='''Forneça análise meteorológica (localidade em inglês):
+        description=f'''Forneça análise meteorológica de {destino} (localidade em inglês):
         1. Condições atuais: temperatura, umidade, condições do céu
         2. Previsão para 24h
         3. Recomendações práticas
@@ -27,9 +27,9 @@ def buscar_clima(agent, context):
     )
     
 
-def buscar_informacoes(agent, context):
+def buscar_informacoes(agent,destino, context):
     return Task(
-        description='''Analise a localidade (em inglês):
+        description=f'''Analise a localidade de {destino}(em inglês):
         1. Básico: localização, população, idioma
         2. Cultural: tradições principais
         3. Econômico: atividades principais
